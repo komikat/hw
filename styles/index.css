@@ -141,7 +141,8 @@ button:focus {
   padding-bottom: 20px;
 }
 .item {
-  position: relative;
+    position: relative;
+    cursor:pointer;
   background: #2d2e2e;
   display: flex;
   flex-direction: column;
@@ -201,14 +202,17 @@ button:focus {
   justify-content: center;
   border-radius: 100px;
   transition-duration: 200ms;
+  cursor: pointer;
 }
 
 .plus span {
   color: black;
   padding-top: 4px;
+  cursor:pointer;
 }
 
 button {
+    cursor:pointer;
   outline: none;
   border: none;
   color: black;
@@ -216,7 +220,8 @@ button {
 }
 
 .plus:hover {
-  background-color: #fff;
+    background-color: #878787;
+    color:#fff;
 }
 
 .container {
@@ -281,4 +286,8 @@ button {
 
 .item-list {
   font-family: "Inter";
+}
+
+.ver-in {
+    font-family: "Nunito";
 }

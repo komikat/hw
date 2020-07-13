@@ -4,9 +4,14 @@
   text-align: center;
   height: 13vh;
   width: 90vw;
+  justify-content: center;
+  align-items: center;
   margin: auto;
+  display: flex;
+  vertical-align: middle;
 }
 
 .footer img {
-  padding-top: 40px;
+    display: block;
+    text-align: center;
 }
