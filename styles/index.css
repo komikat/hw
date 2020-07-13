@@ -119,7 +119,7 @@ button:focus {
   height: 38vh;
 }
 .menu {
-  height: 100vh;
+  
   width: 90vw;
   margin: auto;
   background: black;
@@ -138,6 +138,7 @@ button:focus {
   padding-top: 30px;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 .item {
   position: relative;
