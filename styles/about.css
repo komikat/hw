@@ -19,6 +19,10 @@
   background: black;
 }
 
+.container2 {
+  background: black;
+}
+
 .cover {
   width: 90vw;
   margin: auto;
@@ -82,4 +86,36 @@ a {
 
 .profile img {
   border-radius: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    width: 60vw;
+  }
+  .main {
+    height: auto;
+  }
+  .cover p {
+    width: 50vw;
+  }
+
+  .cover {
+    width: 90vw;
+    margin: auto;
+  }
+  .next {
+    flex-direction: column;
+  }
+
+  .container {
+    padding-bottom: 300px;
+  }
+
+  .container2 {
+    padding-bottom: 300px;
+  }
+
+  .next {
+    text-align: left;
+  }
 }

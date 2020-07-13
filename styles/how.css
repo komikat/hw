@@ -1,50 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500&display=swap");
-.nav {
-  position: fixed;
-  background: #000;
-  width: 90vw;
-  margin: auto;
-  right: 5vw;
-  display: flex;
-
-  padding-top: 30px;
-  justify-items: center;
-  align-content: center;
-  z-index: 9999;
-}
-
-.options {
-  display: flex;
-  list-style: none;
-  flex: 1;
-  justify-content: center;
-  text-align: right;
-  justify-items: center;
-  align-content: center;
-}
-
-.options li {
-  flex: 1;
-  justify-content: center;
-}
-
-.logo {
-  flex: 3;
-  font-size: 20px;
-}
-
-.logo span {
-  font-weight: 500;
-  color: #e68365;
-}
-
-.line {
-  border-bottom: 2px solid #a25e49;
-  width: 100vw;
-  z-index: 10999;
-  position: fixed;
-}
 
 a {
   text-decoration: none;
@@ -61,6 +16,8 @@ body {
   font-family: "Nunito Sans";
   background: #000;
   color: #fff;
+  width:100vw;
+  overflow-x: hidden;
 }
 
 .how {
@@ -85,6 +42,7 @@ body {
 .main {
   width: 90vw;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .item {
@@ -171,3 +129,20 @@ p {
     font-family: "Nunito";
 }
 
+
+@media screen and (max-width: 600px) {
+    .item-cont {
+	width:150px;
+	
+    }
+.item2-cont {
+	width:150px;
+	
+    }
+    .item {
+	padding-bottom: 100px;
+    }
+.item2 {
+	padding-bottom: 100px;
+    }
+}

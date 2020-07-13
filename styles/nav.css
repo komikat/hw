@@ -1,14 +1,23 @@
 .nav {
-  position: fixed;
+  position: absolute;
   background: black;
   width: 90vw;
   margin: auto;
   display: flex;
-  right: 5vw;
+  right:5vw;
   padding-top: 30px;
   justify-items: center;
   color: white;
   align-content: center;
+  z-index: 9998;
+  padding-bottom: 30px;
+}
+
+.total {
+    width:100vw;
+    z-index:9998;
+    background: black;
+    position:fixed;
 }
 
 .options {
@@ -44,3 +53,8 @@
   position: fixed;
 }
 
+@media screen and (max-width: 600px) {
+    .logo {
+	flex:0.5;
+    }
+}
