@@ -1,0 +1,12 @@
+
+.footer {
+  font-family: monospace;
+  text-align: center;
+  height: 13vh;
+  width: 90vw;
+  margin: auto;
+}
+
+.footer img {
+  padding-top: 40px;
+}

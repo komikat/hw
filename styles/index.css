@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+html {
+  scroll-behaviour: smooth;
+  background: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+  color: #fbf5f3;
+}
+
+.cover {
+  width: 90vw;
+  margin: auto;
+  height: calc(100vh);
+  background: #000;
+}
+
+
+.main {
+  padding-top: 200px;
+  font-size: 25px;
+  font-weight: 300;
+  width: 90vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.order {
+  padding: 12px 19px;
+  background: #a25e49;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition-duration: 200ms;
+}
+
+.order span {
+  background: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mars {
+  padding-top: 90px;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.mars img {
+  height: 60vw;
+  width: 60vw;
+}
+
+.order:hover {
+  background: #ea907a;
+}
+.next {
+  height: 100vh;
+  background: pink;
+}
+
+.total {
+  top: 2px;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  background: black;
+  z-index: 9999;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: center;
+  font-weight: 300;
+  background: black;
+}
+
+.form input {
+  font-size: 25px;
+  background: black;
+  border: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  width: 25vw;
+  height: 0px;
+  margin-right: 10px;
+  padding-left: 10px;
+  font-family: "Inter";
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.buffer {
+  height: 38vh;
+}
+.menu {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito";
+}
+
+.menu h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+.item-list {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  position: relative;
+  background: #2d2e2e;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 20px;
+  height: 180px;
+}
+
+.item-price {
+  color: #ea907a;
+  font-size: 30px;
+}
+.item-info {
+  position: absolute;
+  top: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  justify-content: space-around;
+}
+
+.item-name {
+  width: 100px;
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-family: "Nunito";
+}
+
+.item-img {
+  position: absolute;
+  bottom: 15px;
+}
+
+.cart {
+  color: white;
+}
+
+.plus {
+  position: absolute;
+  right: -17px;
+  top: -17px;
+  background: #e9e9e9;
+  color: #a25e49;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  border-radius: 100px;
+  transition-duration: 200ms;
+}
+
+.plus span {
+  color: black;
+  padding-top: 4px;
+}
+
+button {
+  outline: none;
+  border: none;
+  color: black;
+  background: inherit;
+}
+
+.plus:hover {
+  background-color: #fff;
+}
+
+.container {
+  background: #16161d;
+}
+.checkout {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.checkout h1 {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.checkout h2 {
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: 300;
+}
+
+.inp {
+  padding-top: 20px;
+  display: flex;
+}
+.checkout input {
+  margin-top: 10vh;
+  font-size: 25px;
+  background: #16161d;
+  border: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  width: 25vw;
+  height: 0px;
+  margin-right: 10px;
+  padding-left: 10px;
+  font-family: "Inter";
+}
+
+.ent {
+  padding: 12px 19px;
+  background: #a25e49;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.checkout img {
+  width: 40vw;
+}
+
+.menu h2 {
+  font-size: 20px;
+  font-family: "Nunito";
+}
+
+.item-list {
+  font-family: "Inter";
+}
